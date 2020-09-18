@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+/**
+ * Reset
+ */
+@import "reset.css";
+
+/**
+ * Home
+ */
+
+  body{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;    
+  }
+
+  #app {
+    margin: 0 auto;
+    background: url("../assets/img/home_agency.jpg") no-repeat;
+    background-size: cover;
+    height: 3100px;
+    width: 960px;
+  }
+
+  #app header {
+    background: url("../assets/img/lion2.jpeg") no-repeat;
+    background-size: cover;
+    height: 550px;
+    opacity: 100%;
+
+  }
+
+  .header--logo {
+    padding: 25px 0px 0px 38px ;
+  }
+
+  .header--logo h1 {
+    letter-spacing: 1px;
+    font-family: 'Arial';
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: bold;
+  }
+
+  nav{
+    padding: 0px 0px 0px 0px ;
+    margin-top: -37px;
+    margin-left: 850px;
+  }
+
+  .header-txt{
+    font-family: 'Arial';
+    font-size: 40px;
+    color: white;
+    font-weight: 900;
+    padding: 43px 0px 0px 210px ;
+    line-height: 32px;
+  }
+
+  .welcome{
+    font-family: 'Arial';
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: white;
+    padding: 113px 0px 0px 210px ;
+  }
+
+  .phrase-txt{
+    font-family: 'Arial';
+    font-size: 9px;
+    color: white;
+    padding: 20px 0px 0px 210px ;
+    line-height: 15px;
+  }
+
+  .down{
+    height: 20px;
+    margin-left: 210px;
+    margin-top: 15px; 
+  }
