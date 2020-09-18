@@ -10,7 +10,7 @@
  */
 
   body{
-    width: 960px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;    
   }
@@ -20,25 +20,24 @@
     background: url("../assets/img/home_agency.jpg") no-repeat;
     background-size: cover;
     height: 3100px;
-    width: 960px;
   }
 
   #app header {
     background: url("../assets/img/lion2.jpeg") no-repeat;
     background-size: cover;
-    height: 550px;
+    height: 930px;
     opacity: 100%;
 
   }
 
   .header--logo {
-    padding: 25px 0px 0px 38px ;
+    padding: 43px 0px 0px 60px ;
   }
 
   .header--logo h1 {
     letter-spacing: 1px;
     font-family: 'Arial';
-    font-size: 17px;
+    font-size: 30px;
     color: #ffffff;
     font-weight: bold;
   }
@@ -46,36 +45,71 @@
   nav{
     padding: 0px 0px 0px 0px ;
     margin-top: -37px;
-    margin-left: 850px;
+    margin-left: 1710px;
   }
 
-  .header-txt{
+  .header--txt{
     font-family: 'Arial';
-    font-size: 40px;
+    font-size: 70px;
     color: white;
     font-weight: 900;
-    padding: 43px 0px 0px 210px ;
-    line-height: 32px;
+    padding: 80px 0px 0px 360px ;
+    line-height: 55px;
   }
 
-  .welcome{
+  .header--welcome{
     font-family: 'Arial';
-    font-size: 10px;
+    font-size: 19px;
     letter-spacing: 2px;
     color: white;
-    padding: 113px 0px 0px 210px ;
+    padding: 200px 0px 0px 360px ;
   }
 
-  .phrase-txt{
+  .header--phrase-txt{
     font-family: 'Arial';
-    font-size: 9px;
+    font-size: 17px;
     color: white;
-    padding: 20px 0px 0px 210px ;
-    line-height: 15px;
+    padding: 38px 0px 0px 360px ;
+    line-height: 20px;
   }
 
-  .down{
+  .header--down{
     height: 20px;
-    margin-left: 210px;
-    margin-top: 15px; 
+    margin-left: 370px;
+    margin-top: 65px; 
+  }
+
+  .header--precedent{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    color: white;
+    font-family: 'Arial';
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    width: 82px;
+    height: 5%;
+    margin-top: 140px;
+    opacity: 70%;
+  }
+
+  .header--suivant{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    color: white;
+    font-family: 'Arial';
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    width: 1770px;
+    height: 5%;
+    margin-top: 140px;
+  }
+
+  .header--points{
+    color: white;
+    font-size: 100px;
+    padding-top: 180px;
+    padding-left: 480px;
+    position: absolute;
   }
