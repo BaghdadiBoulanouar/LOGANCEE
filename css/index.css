@@ -87,7 +87,7 @@
     font-size: 20px;
     font-weight: bold;
     position: absolute;
-    width: 82px;
+    width: 5%;
     height: 5%;
     margin-top: 140px;
     opacity: 70%;
@@ -104,6 +104,7 @@
     width: 1770px;
     height: 5%;
     margin-top: 140px;
+    margin-bottom: 5%;
   }
 
   .header--points{
@@ -117,7 +118,7 @@
   .content--space{
     height: 240px;
     /*background-color: red;*/
-    opacity: 50%;
+    opacity: 100%;
   }
 
   .vertical-line{
@@ -142,7 +143,7 @@
   }
   .section-1{
     /*background-color: blue;*/
-    opacity: 50%;
+    opacity: 100%;
     height: 510px;
     margin-left: 300px;
     width: 50%;
@@ -183,3 +184,115 @@
     width: 340px;
     margin-left: 700px;
   }
+
+  .about2{
+    position: absolute;
+    margin-left: 820px;
+    margin-top: 70px;
+    font-size: 22px;
+    color: grey;
+    font-family: 'Arial';
+    letter-spacing: 10px;
+    font-weight: 600;
+    text-align: right;
+
+  }
+
+  .txt-02{
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 115px;
+    font-size: 70px;
+    color: black;
+    font-family: 'Arial';
+    font-weight: 600;
+    text-align: right;
+  }
+
+  .paragraph2{
+    position: absolute;
+    margin-left: 660px;
+    margin-top: 300px;
+    width: 400px;
+    line-height: 28px;
+    font-size: 14px;
+    text-align: right;
+  }
+
+  .image--section-2{
+    width: 340px;
+    margin-left: 60px;
+  }
+
+  .recent-works{
+    /*background-color: blue;*/
+    opacity: 100%;
+    width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .recent-works--first-title{
+    font-size: 22px;
+    color: grey;
+    font-family: 'Arial';
+    letter-spacing: 10px;
+    font-weight: 600;
+  }
+
+  .recent-works--title{
+    margin-top: 20px;
+    font-size: 62px;
+    color: black;
+    font-family: 'Arial';
+    letter-spacing: 5px;
+    font-weight: 600;
+  }
+  .recent-works--nav{
+    margin-top: 70px;
+    margin-bottom: 30px;
+  }
+.recent-works--nav--item{
+    margin-right: 35px;
+    font-weight: bold;
+    font-family: 'Arial';
+}
+.works-images--size{
+    width: 350px;
+    height: 350px;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+.works-images--size2{
+    width: 350px;
+    height: 715px;
+    margin-top: 15px;
+    margin-right: 15px; 
+}
+.works-images{
+    margin-bottom: 20px;
+}
+.works-images--size3{
+    width: 715px;
+    height: 350px;
+    margin-top: 15px;
+    margin-right: 15px; 
+}
+.all{
+    font-size: 22px;
+    font-family: 'Arial';
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+.sponso{
+    margin-top: 120px;
+    margin-left: 200px;
+}
+.sponso-images--size{
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+    margin-right: 50px;
+    background-size: cover;
+    background-position: center;
+}
